@@ -1,0 +1,32 @@
+.app-footer {
+  margin-top: auto;
+  background-color: var(--background-color);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 0;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer-nav a:hover {
+  opacity: 1;
+}
