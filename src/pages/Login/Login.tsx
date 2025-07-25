@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '../../components/atoms/Button';
 import './Login.css';
 
@@ -50,6 +51,9 @@ const Login: React.FC = () => {
         <Button type="submit" variant="primary">
           Login
         </Button>
+        <div className="register-link">
+          Don't have an account? <Link to="/register">Register here</Link>
+        </div>
       </form>
     </div>
   );

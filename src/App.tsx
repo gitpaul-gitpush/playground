@@ -4,6 +4,7 @@ import { Header } from './components/organisms/Header';
 import { Footer } from './components/organisms/Footer';
 import { Button } from './components/atoms/Button';
 import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 const Home: React.FC = () => (
   <main>
@@ -26,6 +27,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </div>
       <Footer />
